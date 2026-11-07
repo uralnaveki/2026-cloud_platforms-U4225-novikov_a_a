@@ -25,7 +25,7 @@
 |Unique ID|`113375894780597845301`|
 |Статус|`Enabled`|
 
-!\[Скриншот 1: Параметры и статус сервисного аккаунта novikov-aa-lab1](images/laba1\_1.png)
+![Скриншот 1: Параметры и статус сервисного аккаунта novikov-aa-lab1](images/laba1\_1.png)
 
 ### 2.2. Создание виртуальной машины
 
@@ -40,7 +40,7 @@
 |Provisioning model|Spot VM (прерываемая ВМ)|
 |Service account|`novikov-aa-lab1@cloud-platforms-as-the-basis.iam.gserviceaccount.com`|
 
-!\[Скриншот 2: Конфигурация виртуальной машины novikov-aa-lab1 с типом e2-micro](images/laba1\_2.png)
+![Скриншот 2: Конфигурация виртуальной машины novikov-aa-lab1 с типом e2-micro](images/laba1\_2.png)
 
 ### 2.3. Работа с Cloud Storage
 
@@ -73,7 +73,7 @@ Completed files 3/3 | 1.5MiB/1.5MiB
 Average throughput: 6.9MiB/s
 ```
 
-!\[Скриншот 3: Терминал с успешным копированием трёх файлов](images/laba1\_3.png)
+![Скриншот 3: Терминал с успешным копированием трёх файлов](images/laba1\_3.png)
 
 **Вывод.** При наличии роли Storage Admin сервисный аккаунт имеет полный доступ к операциям чтения и записи в Cloud Storage.
 
@@ -87,7 +87,7 @@ Average throughput: 6.9MiB/s
 * Allows getting and listing information about disks, images, and snapshots.
 * Does NOT allow reading the data stored in Cloud Storage.
 
-!\[Скриншот 4: Выбор роли Compute Viewer для сервисного аккаунта](images/laba1\_4.png)
+![Скриншот 4: Выбор роли Compute Viewer для сервисного аккаунта](images/laba1\_4.png)
 
 ### 2.5. Проверка применения новых прав
 
@@ -116,7 +116,7 @@ does not have permission to access b instance \[lab1-bucket-itmo]
 (or it may not exist): Provided scope(s) are not authorized.
 ```
 
-!\[Скриншот 5: Успешное копирование через gsutil и отказ при запросе IAM-политики бакета](images/laba1\_5.png)
+![Скриншот 5: Успешное копирование через gsutil и отказ при запросе IAM-политики бакета](images/laba1\_5.png)
 
 **Анализ результатов**
 
